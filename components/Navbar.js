@@ -39,7 +39,7 @@ function Navbar () {
           </div>
 
         <li>
-        <a href='/mintingPortal'>
+        <a href='/mintingWithdex'>
         <div className='hidden py-2 px-4 backdrop-blur-md lg:flex flex-row font-Kanit text-white font-semibold border border-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 hover:text-black  hover:font-semibold'>
             <h1 className='lg:mx-4 xl:mx-4 mx-2 uppercase lg:tracking-wide'>Mint now</h1>
 
