@@ -82,7 +82,7 @@ overall brand of Dex coin.
         <div className='mb-8'>
                     <a href='https://opensea.io/DexBattleCrypto' target='_blank' rel="noreferrer" >
                         <button className=' bg-yellow-400 text-center text-[20px] text-black font-Kanit hover:font-semibold hover:border-white px-[60px] py-2 rounded-lg'>
-                        Buy NFTs with BNB
+                        Buy from opensea
                     </button>
                     </a>
         </div>
