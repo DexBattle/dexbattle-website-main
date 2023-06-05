@@ -334,18 +334,7 @@ useEffect(() => {
       ))}
     </div>
 
-    <h1 id="Weapons" className='text-[40px] font-Kanit text-blue-400 tracking-wide uppercase my-[22px] font-semibold mt-4'>Weapons</h1>
-        <div class="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-4 gap-5 space-y-4 md:space-y-0 lg:mx-4 my-4">
-        { Weaplist.filter((item) => {
-                if(searchTerm == ""){
-                  return item;
-                }else if(item.title.toLowerCase().includes(searchTerm.toLowerCase())){
-                  return item;
-                }
-              }).map((item) => (
-        <Cards key={item.id} item={item} handleClick={handleClick}/>
-      ))}
-    </div>
+
 
     </div>
   );
