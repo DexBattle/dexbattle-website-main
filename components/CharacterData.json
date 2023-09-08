@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "/characterData/Character/1.Leader/1.png",
+        "image": "/characterData/Character/1.Leader/1.gif",
         "title": "Dr.MG",
         "supply": 3 ,
         "tier": "Leader"
@@ -9,7 +9,7 @@
 
     {
         "id": 10,
-        "image": "/characterData/Character/2.Common/10.png",
+        "image": "/characterData/Character/2.Common/10.gif",
         "title": "Bishop",
         "supply": 500 ,
         "tier": "Common"
@@ -17,7 +17,7 @@
 
     {
         "id": 11,
-        "image": "/characterData/Character/2.Common/11.png",
+        "image": "/characterData/Character/2.Common/11.gif",
         "title": "Omega",
         "supply": 500 ,
         "tier": "Common"
@@ -25,7 +25,7 @@
 
     {
         "id": 37,
-        "image": "/characterData/Character/3.Uncommon/37.png",
+        "image": "/characterData/Character/3.Uncommon/37.gif",
         "title": "Flake",
         "supply": 400 ,
         "tier": "Uncommon"
@@ -33,7 +33,7 @@
 
     {
         "id": 38,
-        "image": "/characterData/Character/3.Uncommon/38.png",
+        "image": "/characterData/Character/3.Uncommon/38.gif",
         "title": "Ultron",
         "supply": 400 ,
         "tier": "Uncommon"
@@ -43,7 +43,7 @@
     
     {
         "id": 64,
-        "image": "/characterData/Character/4.Rare/64.png",
+        "image": "/characterData/Character/4.Rare/64.gif",
         "title": "Apollo",
         "supply": 300 ,
         "tier": "Rare"
@@ -51,7 +51,7 @@
 
     {
         "id": 65,
-        "image": "/characterData/Character/4.Rare/65.png",
+        "image": "/characterData/Character/4.Rare/65.gif",
         "title": "Regen",
         "supply": 300 ,
         "tier": "Rare"
@@ -59,7 +59,7 @@
 
     {
         "id": 99,
-        "image": "/characterData/Character/5.Epic/99.png",
+        "image": "/characterData/Character/5.Epic/99.gif",
         "title": "Billy",
         "supply": 200 ,
         "tier": "Epic"
@@ -67,7 +67,7 @@
 
     {
         "id": 100,
-        "image": "/characterData/Character/5.Epic/100.png",
+        "image": "/characterData/Character/5.Epic/100.gif",
         "title": "Angela",
         "supply": 200 ,
         "tier": "Epic"
@@ -76,7 +76,7 @@
 
     {
         "id": 128,
-        "image": "/characterData/Character/6.Legendary/128.png",
+        "image": "/characterData/Character/6.Legendary/128.gif",
         "title": "Irona",
         "supply": 100 ,
         "tier": "Legendary"
@@ -84,7 +84,7 @@
 
     {
         "id": 129,
-        "image": "/characterData/Character/6.Legendary/129.png",
+        "image": "/characterData/Character/6.Legendary/129.gif",
         "title": "Vader",
         "supply": 100 ,
         "tier": "Legendary"
@@ -93,7 +93,7 @@
 
     {
         "id": 130,
-        "image": "/characterData/Character/6.Legendary/130.png",
+        "image": "/characterData/Character/6.Legendary/130.gif",
         "title": "Alita",
         "supply": 100 ,
         "tier": "Legendary"

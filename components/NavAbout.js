@@ -28,12 +28,11 @@ function Navbar () {
             <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/'><h1 className='mx-4'>Home</h1></a>
             <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Aboutus' ><h1 className='mx-4'>About Us </h1></a>
             <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Contactus' ><h1 className='mx-4'>Contact Us </h1></a>
-            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/tournament' ><h1 className='mx-4'>Tournaments </h1></a>
             <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'><h1 className='mx-4'>Whitepaper</h1></a>
           </div>
 
         <li>
-        <a href='/mintingWithdex'>
+        <a href='/mintingPortal'>
         <div className='hidden py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white font-semibold border border-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 hover:text-black  hover:font-semibold'>
             <h1 className='mx-4 uppercase tracking-wide'>Mint now</h1>
 
@@ -93,9 +92,6 @@ function Navbar () {
             </li>
             <li  className='py-4 text-sm hover:text-white'>
             <a onClick={() => setNav(false)} href='/Contactus' >Contact Us</a>
-            </li>
-            <li  className='py-4 text-sm hover:text-white'>
-            <a onClick={() => setNav(false)} href='/tournament' >Tournaments</a>
             </li>
             <li>
             <a className="cursor-pointe"  href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'>Whitepaper</a>

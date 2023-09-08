@@ -50,7 +50,7 @@ explaining how to manage everything like minting, presale, whitelisting
             </div>
           </div>
 
-          <div className=" w-full h-full flex flex-col items-center">
+          {/* <div className=" w-full h-full flex flex-col items-center">
             <div className="items-center">
               <img src="/placeholder.png" className="object-cover w-full sm:h-[200px] md:w-[200px] rounded-md border border-gray-300"/>
               <div className="text-white text-1xl text-center font-semibold uppercase mt-1">MUSIC CREATOR</div>
@@ -83,7 +83,7 @@ explaining how to manage everything like minting, presale, whitelisting
               <div className="text-white text-1xl text-center font-semibold uppercase mt-1">WHITE PAPER DESIGNER </div>
               <div className="text-gray-400 text-1xl text-center mt-1">Temmy Becky<br/></div>
             </div>
-          </div>
+          </div> */}
 
 
 
@@ -91,7 +91,7 @@ explaining how to manage everything like minting, presale, whitelisting
       </div>
        </div>
 
-       <div id='about' className= "grid md:grid-flow-row w-full bg-black mx-10 items-start ">
+       {/* <div id='about' className= "grid md:grid-flow-row w-full bg-black mx-10 items-start ">
         <div className= "mt-4 mb-4 pt-2"> 
         <span className=" font-Kanit tracking-wide uppercase text-blue-400 text-3xl">Partners</span>
         </div>
@@ -133,7 +133,7 @@ explaining how to manage everything like minting, presale, whitelisting
                                                                                                                                                                                                                                                                                                                                                         
           
       </div>
-       </div>
+       </div> */}
      </div>
     )}
 export default About

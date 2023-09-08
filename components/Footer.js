@@ -18,7 +18,7 @@ function Footer () {
                           <div class="text-left ml-3">
                               <p class='text-xs text-gray-200'>Get it on </p>
                               <p class="text-sm md:text-base"> Google Play Store </p>
-                              <p class='text-[10px] text-white'>{'(soon!)'}</p>
+                                <p class='text-[10px] text-white'>{'(soon!)'}</p>
                           </div>
                       </div>
                       </a>
@@ -28,17 +28,17 @@ function Footer () {
                           <div class="text-left ml-3">
                               <p class='text-xs text-gray-200'>Download on </p>
                               <p class="text-sm md:text-base"> Apple App Store </p>
-                              <p class='text-[10px] text-white'>{'(soon!)'}</p>
+                                 <p class='text-[10px] text-white'>{'(soon!)'}</p>
                           </div>
                       </div>
                       </a>
                       
-                      <a href='https://www.mediafire.com/file/9lhavp1mub30js9/Dex_Battle.exe/file'><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2 my-2">
+                      <a href={social.windows}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2 my-2">
                     <img src="/icons/windows.png" class="w-7 md:w-8"/> 
                     <div class="text-left ml-3">
                         <p class='text-xs text-gray-200'>Download for  </p>
                         <p class="text-sm md:text-base text-gray-200"> Windows </p>
-                        <p class='text-[10px] text-white'>{'(Beta Launch!)'}</p>
+                            <p class='text-[10px] text-white'>{'(soon!)'}</p>
                     </div>
                 </div>
                 </a>

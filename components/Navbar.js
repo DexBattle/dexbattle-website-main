@@ -34,12 +34,11 @@ function Navbar () {
             <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Aboutus' ><h1 className='mx-4'>About Us </h1></a>
             <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Contactus' ><h1 className='mx-4'>Contact Us </h1></a>
             <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'><h1 className='mx-4'>Whitepaper</h1></a>
-            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Comics' ><h1 className='mx-4'>Comics</h1></a>
-            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/tournament' ><h1 className='mx-4'>Tournaments</h1></a>
+            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Comics' ><h1 className='mx-4'>Comics </h1></a>
           </div>
 
         <li>
-        <a href='/mintingWithdex'>
+        <a href='/mintingPortal'>
         <div className='hidden py-2 px-4 backdrop-blur-md lg:flex flex-row font-Kanit text-white font-semibold border border-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 hover:text-black  hover:font-semibold'>
             <h1 className='lg:mx-4 xl:mx-4 mx-2 uppercase lg:tracking-wide'>Mint now</h1>
 
@@ -95,6 +94,11 @@ function Navbar () {
             <Link onClick={() => setNav(false)}  className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} offset={-70} duration={500}>Home</Link>
             </li>
             <li  className='py-4 text-sm hover:text-white'>
+            <Link onClick={() => setNav(false)}  className="cursor-pointer" activeClass ="active" to='nfts' spy={true} smooth={true} offset={-70} duration={500}>NFTs</Link>            </li>
+            <li  className='py-4 text-sm hover:text-white'>
+            <Link onClick={() => setNav(false)} className="cursor-pointer" activeClass ="active" to='dexcoin' spy={true} smooth={true} offset={-70} duration={500}>Dex Coin</Link>
+            </li>
+            <li  className='py-4 text-sm hover:text-white'>
             <Link onClick={() => setNav(false)} className="cursor-pointer" activeClass ="active" to='game' spy={true} smooth={true} offset={-100} duration={500}>Game</Link>
             </li>
             <li  className='py-4 text-sm hover:text-white'>
@@ -108,9 +112,6 @@ function Navbar () {
             </li>
             <li  className='py-4 text-sm hover:text-white'>
             <a onClick={() => setNav(false)} href='/Comics'>Comics</a>
-            </li>
-            <li  className='py-4 text-sm hover:text-white'>
-            <a onClick={() => setNav(false)} href='/tournament'>Tournaments</a>
             </li>
             <li>
             <a className="cursor-pointe"  href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'>Whitepaper</a>
