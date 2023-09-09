@@ -19,13 +19,13 @@ const config = {
 const social ={
   googlePlayStore:'https://play.google.com/store/', // will update after game launch to play store and app store
   appleAppStore:'https://www.apple.com/app-store/',
-  windows :'https://apps.microsoft.com/store/apps',
+  windows :'https://punterpuffin.com/DexBattle.exe',
   macos :'https://support.apple.com/downloads',
   twitter:'https://twitter.com/DexBattleCrypto', 
   discord:'https://discord.gg/9ZMPeDgD7a',
   telegram:'https://t.me/+I9YpjZPWNbFmYTA0',
   facebook:'https://www.facebook.com/profile.php?id=100088108030091',
-  opensea: 'https://opensea.io', // will update after we create opeansea collection
+  opensea: 'https://opensea.io/collection/marstens', // will update after we create opeansea collection
   email : 'admin@dexbattle.com',
   instagram : 'https://www.instagram.com/dex.battle/'
 }

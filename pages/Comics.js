@@ -4,13 +4,25 @@ export default function Comics(){
         <div className='overflow-y-hidden'>
             <Navbar/>
             <div  className='flex flex-col items-center md:mx-16 mx-4 overflow-hidden'>
-            <h1 className='font-Kanit text-2xl text-[60px] text-blue-400 mt-[100px] mb-4'>Comics</h1>
-                
-            <div className='flex flex-col items-center justify-center mt-8'>
-                    <h1 className='font-Kanit lg:text-[48px] text-[36px] text-center py-2 px-4 text-white font-medium tracking-wider border boder-white rounded-md'>Coming Soon!</h1>
-            </div>   
-            <img src='comicCover.png' className='md:w-[800px] md:h-[800px] lg:w-[800px] lg:h-[800px] w-[400px] h-[400px] md:my-8 my-4 filter blur-sm rounded-md border border-gray-300'/>
-          
+            <h1 className='font-Kanit text-2xl text-[66px] text-blue-400 mt-[100px] mb-4'>Comics</h1>
+            <div className='w-full h-full flex flex-col items-center my-4'>
+                <img src='/comics/Cover.jpg' className='w-[800px] h-[1000px] rounded-sm border border-white'/>
+            </div>
+            <div className='grid grid-flow-row md:grid-cols-2 my-4'>
+                <img src='/comics/01.jpg' className='rounded-md h-full-w-full mx-2 my-2'/>
+                <img src='/comics/02.jpg' className='rounded-md h-full-w-full mx-2 my-2'/>
+                <img src='/comics/03.jpg' className='rounded-md h-full-w-full mx-2 my-2'/>
+                <img src='/comics/04.jpg' className='rounded-md h-full-w-full mx-2 my-2'/>
+                <img src='/comics/05.jpg' className='rounded-md h-full-w-full mx-2 my-2'/>
+                <img src='/comics/06.jpg' className='rounded-md h-full-w-full mx-2 my-2'/>
+                <img src='/comics/07.jpg' className='rounded-md h-full-w-full mx-2 my-2'/>
+                <img src='/comics/08.jpg' className='rounded-md h-full-w-full mx-2 my-2'/>
+                <img src='/comics/09.jpg' className='rounded-md h-full-w-full mx-2 my-2'/>
+                <img src='/comics/10.jpg' className='rounded-md h-full-w-full mx-2 my-2'/>
+                <img src='/comics/11.jpg' className='rounded-md h-full-w-full mx-2 my-2'/>
+                <img src='/comics/12.jpg' className='rounded-md h-full-w-full mx-2 my-2'/>
+
+            </div>
             </div>
         </div>
     )

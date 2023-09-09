@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Chalist from "./CharacterData.json";
-import Weaplist from './WeaponData.json'
 import Cards from "./card";
 import { initOnboard } from "../ulits/onboard"
 import { config, social } from '../info.config'
@@ -144,7 +143,7 @@ useEffect(() => {
         <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
             <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
         </div>
-        <input type="text" id="searchInput" class="block p-4 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Character, Weapon..."
+        <input type="text" id="searchInput" class="block p-4 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Character"
         onChange={(event) => {
             setSearchTerm(event.target.value);
           }} />
@@ -154,7 +153,6 @@ useEffect(() => {
           <div className='hidden bg-gray-700/30 py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-full text-[20px]'>
             <a className="cursor-pointer hover:text-blue-400" href='/'><h1 className='mx-4'>Home</h1></a>
             <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='Characters' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'> Characters </h1></Link>
-            <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='Weapons' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Weapons</h1></Link>
             <a className="cursor-pointer hover:text-blue-400" href={social.opensea}><h1 className='mx-4 '>Buy On Opensea</h1></a>
           </div>
 
@@ -224,9 +222,6 @@ useEffect(() => {
             </li>
             <li  className='py-4 text-sm hover:text-white'>
             <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='Characters' spy={true} smooth={true} offset={-70} duration={500} onClick={() => setNav(false)} >Charcters</Link>
-            </li>
-            <li  className='py-4 text-sm hover:text-white'>
-            <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='Weapons' spy={true} smooth={true} offset={-70} duration={500} onClick={() => setNav(false)} >Weapons</Link>
             </li>
             <li>
             <a className="cursor-pointe"  href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'>Whitepaper</a>
@@ -332,18 +327,7 @@ useEffect(() => {
       ))}
     </div>
 
-    <h1 id="Weapons" className='text-[40px] font-Kanit text-blue-400 tracking-wide uppercase my-[22px] font-semibold mt-4'>Weapons</h1>
-        <div class="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-4 gap-5 space-y-4 md:space-y-0 lg:mx-4 my-4">
-        { Weaplist.filter((item) => {
-                if(searchTerm == ""){
-                  return item;
-                }else if(item.title.toLowerCase().includes(searchTerm.toLowerCase())){
-                  return item;
-                }
-              }).map((item) => (
-        <Cards key={item.id} item={item} handleClick={handleClick}/>
-      ))}
-    </div>
+
 
     </div>
   );

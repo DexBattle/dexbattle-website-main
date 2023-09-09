@@ -21,14 +21,6 @@ export default function FAQs() {
   return (
     <div id='faqs'className='md:mx-16 mx-2 p-6 my-[44px] rounded-lg'>
       <h1 className='md:text-[40px] text-[30px] bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent font-Kanit text-center uppercase font-semibold tracking-wide'> Frequently Asked Questions</h1>
-      <Accordion open={open === 1} animate={customAnimation}>
-        <AccordionHeader onClick={() => handleOpen(1)} className='text-white font-Kanit text-[22px] text-[20px]'>
-          How to get Dexbattle Characters and Weapons?
-        </AccordionHeader>
-        <AccordionBody className='text-justify text-gray-300 font-Kanit md:text-[20px] text-[18px]'>
-          You can get dex characters and weapons as ERC-1155 fungable tokens on <a href={social.opensea} className="text-blue-400">Opeansea.</a>
-        </AccordionBody>
-      </Accordion>
       <Accordion open={open === 2} animate={customAnimation} className='text-white font-Kanit text-[22px] text-[20px]'>
         <AccordionHeader onClick={() => handleOpen(2)}>
           What are Dex Coin tokens?

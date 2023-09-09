@@ -50,7 +50,7 @@ explaining how to manage everything like minting, presale, whitelisting
             </div>
           </div>
 
-          {/* <div className=" w-full h-full flex flex-col items-center">
+         {/*  <div className=" w-full h-full flex flex-col items-center">
             <div className="items-center">
               <img src="/placeholder.png" className="object-cover w-full sm:h-[200px] md:w-[200px] rounded-md border border-gray-300"/>
               <div className="text-white text-1xl text-center font-semibold uppercase mt-1">MUSIC CREATOR</div>

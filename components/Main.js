@@ -27,6 +27,7 @@ useEffect(() => {
                 <h1 className='font-Kanit md:text-[60px] lg:text-[60px] text-[30px] text-white font-semibold uppercase'> Make your own story <br/>
                 <span className='md:text-[75px] text-[35px] text-white'>IN <span className='bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent'>DEXBATTLE</span></span></h1>
                 <h1 className='text-[25px] mt-8 font-kanit border-2 border-red-700 rounded-md px-4 py-2 font-medium text-white'>📢 Join our {'(Beta launch)'} on 01/10/2023 and win crypto gifts. {/* on 25<sup>th</sup> Jan 2023 */}</h1>
+                
                 <div class="md:flex justify-start mt-10 mb-[60px]">
             <a href={social.googlePlayStore}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2 my-2">
                     <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" class="w-7 md:w-8"/>
@@ -48,8 +49,8 @@ useEffect(() => {
                     <img src="/icons/windows.png" class="w-7 md:w-8"/> 
                     <div class="text-left ml-3">
                         <p class='text-xs text-gray-200'>Download for  </p>
-                        <p class="text-sm md:text-base text-gray-200"> Windows </p>
-                        <p class='text-[10px] text-white'>{'(soon!)'}</p>
+                        <p class="text-sm md:text-base text-gray-200"> Windows</p>
+                        <p class='text-[10px] text-white'>{'(Beta Launch!)'}</p>
                     </div>
                 </div></a>
                 <a href={social.macos}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2 my-2">
@@ -173,7 +174,7 @@ useEffect(() => {
 
             </div>
 
-            <div className='hidden lg:flex w-[600px] h-[600px] mt-[80px]'>
+            <div className='hidden lg:flex flex-col w-[600px] h-[600px] mt-[80px] items-end'>
               <img src='webimage1.png'
               className='object-cover'/>
             </div>
@@ -184,7 +185,7 @@ useEffect(() => {
         </div>
 
         <div className='md:my-8 my-4'>
-          <ReactPlayer url='https://youtu.be/ZD44BUZC1nI'
+          <ReactPlayer url='https://www.youtube.com/watch?v=ZD44BUZC1nI'
           controls={true} muted playing
           width='1080px' height='720px' /> 
         </div>
@@ -196,7 +197,7 @@ useEffect(() => {
             <h1 data-aos="fade-right" className='md:text-5xl text-3xl font-Kanit text-white tracking-wide'>What is DexBattale?</h1>
             <h1 data-aos="fade-right" className='text-[18px] font-Kanit text-gray-400 text-justify mt-6'>
             Welcome to the ever-evolving Dex battle universe! Hone your shooting skills, compete in tournaments, and complete missions with your
-Clan to earn NFTs and coveted rewards. Collect weapons, and so much more items. But most importantly, have fun and work together
+Clan to earn NFTs and coveted rewards. But most importantly, have fun and work together
 Dex battle is a community-owned skill-based shooter with different PvP and PvE game modes for every type of player. The core shooter
 game is set on top of a land control-oriented, social strategy game with a deep emphasis on clans, alliances, and social mechanics. The
 game economy rewards social behavior and is designed to be an endless experience built by and for the player community.

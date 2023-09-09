@@ -27,7 +27,7 @@ function Game () {
                 <p data-aos="fade" className='text-[20px] font-Kanit text-gray-400 text-justify '>
                 The game is inspired by a survival game in which players will take on the form of heroes to be the last survivor to win the battle by
                 following the quest. The game loop will be players experiencing the battles, being the winner, and receiving the rewards, then using the
-                rewards to upgrade the game characters and weapons efficiently
+                rewards to upgrade the game characters efficiently
                 </p>
 
                 <h1 data-aos="flip-right" className='text-[40px] font-Kanit bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent tracking-wide uppercase my-[22px] font-semibold'>
@@ -347,7 +347,7 @@ Dr.M.G. suggested to start their first fight in Dex sector, or what they have ca
 Dr.M.G. got the leadership of this team easily. As his powers are still unknown until now. All of them thought that he just got
 some mind tricks and mind power. But they missed that Dr.M.G. was at the same place of the event and the 11 beams have hit him
 before they got distributed to them. He gathered them in order to start to tell them about the most important and confidential
-project ever. The Mutated weapon projects
+project ever.
                     </h1>
                 </div>
 
@@ -678,39 +678,7 @@ character selection and it would be your chance to feel yourself unbeatable.</li
     </div>
     </div>
   </div>
-  <h1 data-aos="flip-right" className='text-[40px] font-Kanit bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent tracking-wide uppercase my-[22px] font-semibold mt-4'>
-  DexBattle Weapons
-  </h1>
-  
 
-  {/* content here */}
-  <div className='w-full flex flex-col items-center justify-between overflow-hidden my-4'> 
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 ">
-{
- Weaplist.map((item) =>
- <div key={item.id} item={item} class="my-4 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
- <div class="md:h-[300px] md:w-[400px] h-auto w-full">
-   <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={item.image} alt="Weapon" />
- </div>
- <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
- <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-   <h1 class="font-Kanit text-3xl font-bold text-white">{item.title}</h1>
-   <ol class="mb-3 text-[15px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-      <li>Tire:{item.tier} </li>
-      <li>Type:{item.info} </li>
-       <li>Damage:{item.damage}</li>
-       <li>Fire Rate:{item['fire rate']}</li>
-       <li>Reload Time:{item['reload time']}</li>
-       <li>Range:{item.range}</li>
-       <li>Accuracy:{item.accuracy}</li>
-       <li>Weight:{item.weight}</li>
-   </ol>
-</div>
-</div>)
-}
-
-    </div>
-  </div>
 
 </div>
 
